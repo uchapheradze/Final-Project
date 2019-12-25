@@ -1,0 +1,122 @@
+body {
+    background-image: url("images/background6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation-ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+a {
+    font-size: 20px;
+    color:white;
+    transition-duration: 0.7s;
+    font-family: "BPG Banner Caps", sans-serif;
+}
+
+a:hover {
+    color:rgb(187, 144, 52);
+    font-size: 25px;
+}
+
+.kontaqti {
+    color: rgb(196, 189, 189);
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.boxes {
+    margin-top: 50px;
+    background-image: url("images/background7.jpg");
+}
+
+.line2 {
+    height: 2px;
+    background-color: rgb(9, 255, 0);
+}
+
+h1 {
+    font-family: "BPG Banner Caps", sans-serif;
+    text-align:center;
+    font-size: 50px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px 10px green;
+}
+
+h2 {
+    font-family: "BPG Banner Caps", sans-serif;
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "BPG Banner Caps", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: "BPG Banner Caps", sans-serif;
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.map2 {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+@media (max-width:1024px){
+    .boxes{
+        margin-top: 150px;
+    }
+    .navigation-ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation-li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:375px){
+    .section{
+        margin-left: 20px;
+    }
+    .info h1{
+        font-size: 35px;
+    }
+    .info h2,h3,h4{
+        font-size: 20px;
+    }
+    .map2 {
+        width: 100%;
+        margin-left:0px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    
+}
